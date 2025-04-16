@@ -1,12 +1,79 @@
-# React + Vite
+# Pratibha Vanave | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio website, showcasing my projects, skills, and experience as a full-stack developer and data enthusiast.
 
-Currently, two official plugins are available:
+Live Site: https://pratibhavanave.github.io/portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- GitHub Pages
+
+---
+
+## Project Structure
+
+portfolio/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # UI sections (Hero, About, Projects, etc.)
+│   ├── App.jsx             # Main layout
+│   ├── main.jsx            # Entry point
+├── index.html              # HTML template
+├── tailwind.config.js      # Tailwind setup
+├── vite.config.js          # Vite config with base for GitHub Pages
+├── package.json            # Scripts and dependencies
+└── README.md               # Project documentation
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+
+   git clone https://github.com/pratibhavanave/portfolio.git
+   cd portfolio
+
+2. Install dependencies:
+
+   npm install
+
+3. Run the development server:
+
+   npm run dev
+
+Open your browser and visit http://localhost:5173
+
+---
+
+## Deployment (GitHub Pages)
+
+1. Build the project:
+
+   npm run build
+
+2. Deploy:
+
+   npm run deploy
+
+The website will be live at: https://pratibhavanave.github.io/portfolio
+
+---
+
+## Contact
+
+Feel free to reach out:
+
+- Email: vanavepratibha@gmail.com
+- LinkedIn: https://www.linkedin.com/in/pratibha-vanave-352037285/
+- GitHub: https://github.com/pratibhavanave
+
+---
+
+## License
+
+© 2025 Pratibha Vanave. All rights reserved.
